@@ -1,0 +1,1 @@
+python ./examples/run_glue.py --model_type roberta --model_name_or_path roberta-large-<TASK>/ --task_name <TASK> --do_eval --do_lower_case --data_dir <TASK>/ --max_seq_length 128 --per_gpu_eval_batch_size=<BATCH_SIZE> --output_filename <TASK>_preds.txt --output_dir "roberta-large-<TASK>/"

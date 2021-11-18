@@ -1,0 +1,13 @@
+python src/status.py 'notchpeak-gpu,notchpeak-gpu-guest'
+
+python src/pyslurm.py --cli submit --joblist_file 'test_joblist.json'
+
+python src/pyslurm.py --cli joblist --command "test_command.txt" --gpu_type 'any' --hyperparams test_hyper.yaml --min_gpu_mem 12 --joblist_file 'test_joblist.json'
+
+python src/pyslurm.py --cli joblist --command "test_command.txt" --gpu_type 'any' --hyperparams test_hyper.yaml --min_gpu_mem 12 --joblist_file 'test_joblist.json' --priority 1 --work_dir ../compression/fairseq --env ../compression/env_fairseq_3090 --num_gpus 1
+
+python src/pyslurm.py --cli joblist --command "test_command.txt" --gpu_type 'any' --hyperparams test_hyper.yaml --min_gpu_mem 12 --joblist_file 'joblist.json' --priority 1 --work_dir ../compression/fairseq --env ../compression/env_fairseq_3090 --num_gpus 1 --job_key fairseq_test
+
+python src/submit.py 'notchpeak-gpu, notchpeak-gpu-guest'
+
+python src/scheduler.py 'soc-gpu-kp, kingspeak-gpu-guest, kingspeak-gpu, notchpeak-gpu-guest, notchpeak-gpu' joblist.json

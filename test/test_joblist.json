@@ -1,0 +1,125 @@
+[
+  {
+    "job_id": 163715010254395,
+    "slurm_job_id": null,
+    "job_name": null,
+    "job_key": "",
+    "job_command": [
+      "python ./examples/run_glue.py --model_type roberta --model_name_or_path roberta-large-MNLI/ --task_name MNLI --do_eval --do_lower_case --data_dir MNLI/ --max_seq_length 128 --per_gpu_eval_batch_size=32 --output_filename MNLI_preds.txt --output_dir \"roberta-large-MNLI/\""
+    ],
+    "job_cpu_mem": [
+      -1,
+      -1
+    ],
+    "job_gpu_mem": [
+      12,
+      -1
+    ],
+    "job_cpu_tasks": [
+      -1,
+      -1
+    ],
+    "job_gpu_types": [
+      "v100",
+      "p100",
+      "titanv",
+      "a100",
+      "a40",
+      "3090",
+      "2080ti",
+      "1080ti",
+      "t4",
+      "p40"
+    ],
+    "job_num_gpus": 2,
+    "partitions": [],
+    "history": null,
+    "work_dir": "../compression/fairseq",
+    "job_priority": 1,
+    "job_env": "../compression/env_fairseq_3090",
+    "job_number": 0,
+    "cuda_version": "default"
+  },
+  {
+    "job_id": 163715010254396,
+    "slurm_job_id": null,
+    "job_name": null,
+    "job_key": "",
+    "job_command": [
+      "python ./examples/run_glue.py --model_type roberta --model_name_or_path roberta-large-SST/ --task_name SST --do_eval --do_lower_case --data_dir SST/ --max_seq_length 128 --per_gpu_eval_batch_size=16 --output_filename SST_preds.txt --output_dir \"roberta-large-SST/\""
+    ],
+    "job_cpu_mem": [
+      -1,
+      -1
+    ],
+    "job_gpu_mem": [
+      12,
+      -1
+    ],
+    "job_cpu_tasks": [
+      -1,
+      -1
+    ],
+    "job_gpu_types": [
+      "v100",
+      "p100",
+      "titanv",
+      "a100",
+      "a40",
+      "3090",
+      "2080ti",
+      "1080ti",
+      "t4",
+      "p40"
+    ],
+    "job_num_gpus": 2,
+    "partitions": [],
+    "history": null,
+    "work_dir": "../compression/fairseq",
+    "job_priority": 1,
+    "job_env": "../compression/env_fairseq_3090",
+    "job_number": 1,
+    "cuda_version": "default"
+  },
+  {
+    "job_id": 163715010254397,
+    "slurm_job_id": null,
+    "job_name": null,
+    "job_key": "",
+    "job_command": [
+      "python ./examples/run_glue.py --model_type roberta --model_name_or_path roberta-large-QQP/ --task_name QQP --do_eval --do_lower_case --data_dir QQP/ --max_seq_length 128 --per_gpu_eval_batch_size=8 --output_filename QQP_preds.txt --output_dir \"roberta-large-QQP/\""
+    ],
+    "job_cpu_mem": [
+      -1,
+      -1
+    ],
+    "job_gpu_mem": [
+      12,
+      -1
+    ],
+    "job_cpu_tasks": [
+      -1,
+      -1
+    ],
+    "job_gpu_types": [
+      "v100",
+      "p100",
+      "titanv",
+      "a100",
+      "a40",
+      "3090",
+      "2080ti",
+      "1080ti",
+      "t4",
+      "p40"
+    ],
+    "job_num_gpus": 2,
+    "partitions": [],
+    "history": null,
+    "work_dir": "../compression/fairseq",
+    "job_priority": 1,
+    "job_env": "../compression/env_fairseq_3090",
+    "job_number": 2,
+    "cuda_version": "default"
+  }
+]

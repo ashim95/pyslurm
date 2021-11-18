@@ -1,0 +1,32 @@
+[
+  {
+    "name": "_163715132367366_0",
+    "slurm_file": "slurms/year_2021_week_46_day_3/_163715132367366_0",
+    "gpu": [
+      "titanv"
+    ],
+    "command": [
+      "python ./examples/run_glue.py --model_type roberta --model_name_or_path roberta-large-MNLI/ --task_name MNLI --do_eval --do_lower_case --data_dir MNLI/ --max_seq_length 128 --per_gpu_eval_batch_size=32 --output_filename MNLI_preds.txt --output_dir \"roberta-large-MNLI/\""
+    ],
+    "num_gpus": [
+      2
+    ],
+    "account": "owner-gpu-guest",
+    "partition": "notchpeak-gpu-guest",
+    "user_mail": "ashim.gupta.cs@gmail.com",
+    "mail_type": "ALL",
+    "output_file": "slurms/year_2021_week_46_day_3/outputs//_163715132367366_0",
+    "error_file": "slurms/year_2021_week_46_day_3/outputs//_163715132367366_0",
+    "nodes": 1,
+    "n_tasks": 1,
+    "time": "3-00:00:00",
+    "cpu_mem": 32,
+    "env": "../compression/env_fairseq_3090",
+    "work_dir": "../compression/fairseq",
+    "library_path": "/usr/local/cuda/lib64",
+    "expected_host": "notch055",
+    "submitted": true,
+    "slurm_job_id": "3402141",
+    "status": "Submitted batch job 3402141"
+  }
+]

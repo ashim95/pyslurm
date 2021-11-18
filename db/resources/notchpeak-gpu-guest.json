@@ -1,0 +1,229 @@
+{
+  "notch055": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "titanv": 4
+    },
+    "used": {
+      "titanv": 2
+    },
+    "unused": {
+      "state": "mix",
+      "titanv": 2
+    }
+  },
+  "notch060": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "1080ti": 8
+    },
+    "used": {
+      "1080ti": 1,
+      "gpu": 1
+    },
+    "unused": {
+      "state": "mix",
+      "1080ti": 6
+    }
+  },
+  "notch083": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch084": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "alloc",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "gpu": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch085": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "alloc",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch089": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch102": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "3090": 2
+    },
+    "used": {
+      "3090": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch103": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4,
+      "a40": 2
+    },
+    "used": {
+      "gpu": 1,
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "mix",
+      "2080ti": 0,
+      "a40": 2
+    }
+  },
+  "notch136": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 8
+    },
+    "used": {
+      "2080ti": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch168": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 8
+    },
+    "used": {
+      "2080ti": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch169": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 8
+    },
+    "used": {
+      "2080ti": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch204": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "v100": 2
+    },
+    "used": {
+      "v100": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch215": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 8
+    },
+    "used": {
+      "2080ti": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch294": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch299": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "3090": 8
+    },
+    "used": {
+      "3090": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch300": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "mix",
+    "gpus": {
+      "t4": 1
+    },
+    "used": {},
+    "unused": {
+      "state": "mix",
+      "t4": 1
+    }
+  },
+  "notch329": {
+    "partition": "notchpeak-gpu-guest",
+    "state": "alloc",
+    "gpus": {
+      "a40": 4
+    },
+    "used": {
+      "a40": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  }
+}

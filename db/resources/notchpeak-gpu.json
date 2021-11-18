@@ -1,0 +1,139 @@
+{
+  "notch001": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "v100": 3
+    },
+    "used": {
+      "v100": 3
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch002": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "v100": 3
+    },
+    "used": {
+      "v100": 3
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch003": {
+    "partition": "notchpeak-gpu",
+    "state": "alloc",
+    "gpus": {
+      "v100": 3
+    },
+    "used": {},
+    "unused": {
+      "state": "mix",
+      "v100": 3
+    }
+  },
+  "notch004": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 2,
+      "p40": 1
+    },
+    "used": {
+      "p40": 1,
+      "2080ti": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch086": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 3
+    },
+    "unused": {
+      "state": "mix",
+      "2080ti": 1
+    }
+  },
+  "notch087": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch088": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 4
+    },
+    "used": {
+      "2080ti": 4
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "notch271": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "2080ti": 8
+    },
+    "used": {
+      "2080ti": 5
+    },
+    "unused": {
+      "state": "mix",
+      "2080ti": 3
+    }
+  },
+  "notch293": {
+    "partition": "notchpeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "3090": 4,
+      "a100": 4
+    },
+    "used": {
+      "3090": 4,
+      "a100": 3
+    },
+    "unused": {
+      "state": "mix",
+      "3090": 0,
+      "a100": 1
+    }
+  },
+  "notch328": {
+    "partition": "notchpeak-gpu",
+    "state": "alloc",
+    "gpus": {
+      "3090": 8
+    },
+    "used": {
+      "gpu": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  }
+}

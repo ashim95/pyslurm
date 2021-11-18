@@ -1,0 +1,2 @@
+TASK: ['MNLI', 'SST', 'QQP']
+BATCH_SIZE: [32, 16, 8]

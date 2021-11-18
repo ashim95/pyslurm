@@ -1,0 +1,57 @@
+{
+  "kp297": {
+    "partition": "kingspeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "titanx": 8
+    },
+    "used": {
+      "titanx": 7,
+      "gpu": 1
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp298": {
+    "partition": "kingspeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "titanx": 8
+    },
+    "used": {
+      "titanx": 7,
+      "gpu": 1
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp299": {
+    "partition": "kingspeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "k80": 8
+    },
+    "used": {
+      "gpu": 1,
+      "k80": 7
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp300": {
+    "partition": "kingspeak-gpu",
+    "state": "mix",
+    "gpus": {
+      "k80": 8
+    },
+    "used": {
+      "k80": 8
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  }
+}

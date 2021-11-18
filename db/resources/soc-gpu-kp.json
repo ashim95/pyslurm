@@ -1,0 +1,55 @@
+{
+  "kp359": {
+    "partition": "soc-gpu-kp",
+    "state": "mix",
+    "gpus": {
+      "p100": 2
+    },
+    "used": {
+      "p100": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp360": {
+    "partition": "soc-gpu-kp",
+    "state": "mix",
+    "gpus": {
+      "p100": 2
+    },
+    "used": {
+      "p100": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp361": {
+    "partition": "soc-gpu-kp",
+    "state": "mix",
+    "gpus": {
+      "p100": 2
+    },
+    "used": {
+      "p100": 2
+    },
+    "unused": {
+      "state": "alloc"
+    }
+  },
+  "kp362": {
+    "partition": "soc-gpu-kp",
+    "state": "alloc",
+    "gpus": {
+      "p100": 2
+    },
+    "used": {
+      "gpu": 1
+    },
+    "unused": {
+      "state": "mix",
+      "p100": 1
+    }
+  }
+}
